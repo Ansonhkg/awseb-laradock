@@ -8,6 +8,15 @@ Change your server side database configuration here
 ## Local Development Side
 Change your local side database configuration here
 - `.env`
+For example:
+```sh
+DB_CONNECTION=mysql
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=homestead
+DB_USERNAME=root
+DB_PASSWORD=root
+```
 #### Serve Locally
 - Type `php artisan serve` in your root directory
 
