@@ -1,12 +1,12 @@
 # Laradock & AWS Elastic Beanstalk (PHP)
 
-## Server Side
-Change your server side database configuration here
-- Go to `.ebextensions` and create a edit server database configuration in `00environmentVariables.config`
-- Configure your server DB settings in `.env.production`
+## Cloud Server Side
+Configure your server DB settings in
+- `.ebextensions` -> `00environmentVariables.config`
+- and `.env.production`
 
-## Local Development Side
-Change your local side database configuration here
+## Local Server Side
+Change your local database configuration here
 - `.env`
 For example:
 ```sh
