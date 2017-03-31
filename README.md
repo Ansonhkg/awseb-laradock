@@ -21,7 +21,8 @@ DB_PASSWORD=root
 - Type `php artisan serve` in your root directory
 
 ## How it works?
-First, we setup `.env.production` configuration file for the server. This file won't be executed as Laravel will only read from `.env` file. We rename `.env.production` to `.env` on the server using the script `99delayed_job.config` in the `.ebextensions` during the **Post-build** stage. 
+- First, we setup `.env.production` configuration file for the server. This file won't be executed as Laravel will only read from `.env` file. 
+- When the app is built, we are in the post-build stage. We then run a script `.ebextensions -> 99delayed_job.config` to rename `.env.production` to `.env` on the server.
 
 ## Install Laradock
 Clone Laradock inside your PHP project
