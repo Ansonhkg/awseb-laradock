@@ -6,8 +6,8 @@ Configure your server DB settings in
 - and `.env.production`
 
 ## Local Server Side
-Change your local database configuration here
-- `.env`
+Change your local database configuration in `.env`
+
 For example:
 ```sh
 DB_CONNECTION=mysql
