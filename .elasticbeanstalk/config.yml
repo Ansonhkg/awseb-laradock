@@ -1,0 +1,21 @@
+branch-defaults:
+  default:
+    environment: development
+  master:
+    environment: development
+environment-defaults:
+  laravelapp-dev:
+    branch: null
+    repository: null
+global:
+  application_name: laravelapp
+  default_ec2_keyname: ansonhkg-key-pair-euireland
+  default_platform: arn:aws:elasticbeanstalk:eu-west-1::platform/PHP 7.0 running on
+    64bit Amazon Linux/2.3.2
+  default_region: eu-west-1
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  sc: null
+  workspace_type: Application

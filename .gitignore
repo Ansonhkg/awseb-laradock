@@ -1,0 +1,23 @@
+/node_modules
+/public/storage
+/public/hot
+/storage/*.key
+/vendor
+/.idea
+/.vagrant
+Homestead.json
+Homestead.yaml
+
+.env.production
+
+# Elastic Beanstalk extensions
+.ebextensions/00environmentVariables.config
+
+# Elastic Beanstalk Files
+
+!.elasticbeanstalk/*
+
+!.elasticbeanstalk/*.cfg.yml
+
+!.elasticbeanstalk/*.global.yml
+
