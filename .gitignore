@@ -8,11 +8,6 @@
 Homestead.json
 Homestead.yaml
 
-.env.production
-
-# Elastic Beanstalk extensions
-.ebextensions/00environmentVariables.config
-
 # Elastic Beanstalk Files
 
 !.elasticbeanstalk/*
